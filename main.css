@@ -1,0 +1,215 @@
+    body {
+        background: #0e0f10;
+        height: 100px;
+        color: whitesmoke
+    }
+    
+    .sidebar {
+        width: 180px;
+        position: fixed;
+        height: 100%;
+        background: #1D1D22;
+    }
+    
+    .sidebar a {
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .sidebar a,
+    .sidebar .logo {
+        background: #1D1D22;
+        text-align: center;
+        border: none;
+    }
+    
+    .sidebar .logo {
+        color: white;
+        border-bottom: 7px solid rgb(0, 0, 0);
+    }
+    
+    .sidebar a:hover {
+        transition: all 0.5s ease-in-out;
+        background: #1D1D22;
+        text-align: center;
+    }
+    
+    .sidebar a.active {
+        background: none;
+        border: none;
+        fill: #25ca7f;
+    }
+    
+    .sidebar a:not(.active) {
+        color: rgb(0, 0, 0);
+        fill: rgb(221, 221, 221);
+    }
+    
+    .sidebar a.active .sizeicon {
+        height: 52px;
+        width: 52px;
+    }
+    
+    .sizeicon {
+        height: 30px;
+        width: 30px;
+    }
+    
+    .sizeicon:hover {
+        height: 32px;
+        width: 32px;
+    }
+    
+    .content-site {
+        margin-left: 200px;
+    }
+    
+    .jumbotron {
+        background: #070708;
+        width: 70%;
+        padding: 40px;
+        border-radius: 15px 15px 15px 15px
+    }
+    
+    .img-fluid {
+        height: 232px;
+        width: 215px;
+        border-radius: 122px 21px 88px 12px;
+        box-shadow: 12px 5px 8px 6px rgba(0, 0, 0, 0.452);
+    }
+    /*Timeline Style START*/
+    
+    ul.timeline {
+        list-style-type: none;
+        position: relative;
+        background: #070708;
+        border-radius: 15px 15px 15px 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    ul.timeline:before {
+        content: ' ';
+        background: #25ca7f;
+        display: inline-block;
+        position: absolute;
+        left: 29px;
+        width: 2px;
+        height: 80%;
+        z-index: 400;
+    }
+    
+    ul.timeline>li {
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+    
+    ul.timeline>li:before {
+        content: ' ';
+        background: #070708;
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid #25ca7f;
+        left: 20px;
+        width: 20px;
+        height: 20px;
+        z-index: 400;
+    }
+    
+     ::before:hover {
+        background: #25ca7f;
+    }
+    
+    ul.timeline a,
+    span {
+        color: #25ca7f;
+        font-weight: bold;
+    }
+    
+    .float-right {
+        float: right;
+        margin-right: 36px;
+    }
+    /*Timeline Style END*/
+    
+    .tab-pane {
+        padding-top: 90px;
+        margin-bottom: 30px;
+    }
+    
+    .my-location {
+        color: #25ca7f;
+        font-weight: 600;
+    }
+    
+    .ms-3 {
+        margin-left: 3rem!important;
+    }
+    
+    p {
+        margin-bottom: 0px;
+    }
+    
+    .sub-title-about-me {
+        font-weight: bold;
+        color: #25ca7f;
+        margin-left: 19px;
+        font-size: 18px;
+        /*text-shadow: 1px 2px 4px #000000;*/
+    }
+    
+    .sizeicon-2 {
+        height: 35px;
+        width: 30px;
+        margin-right: 11px;
+        color: #25ca7f;
+    }
+    
+    .card.service {
+        background: #070708;
+        border-radius: 15px 15px 15px 15px;
+        text-align: center;
+        min-height: 200px;
+    }
+    
+    .icon-service {
+        background: #0e0f10;
+        border-radius: 100%;
+        width: 80px;
+        height: 80px;
+        padding-top: 18;
+        text-align: center;
+        margin-left: 30%;
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    
+    .icon-service:hover {
+        transition: all 0.5s ease-in-out;
+        border: 1px solid #25ca7f;
+    }
+    
+    .skills span {
+        display: block;
+        margin-bottom: 30px;
+    }
+    
+    .skills span .progress {
+        margin-top: 10px;
+        background-color: #0e0f10;
+    }
+    
+    .skills span .progress-bar {
+        background-color: #25ca7f;
+    }
+    
+    .contact-icon {
+        margin-top: 6px;
+        text-align: center;
+        margin-bottom: 23px;
+        margin-left: 113px;
+    }
+    
+    .contact-icon:hover {
+        fill: #25ca7f;
+    }
